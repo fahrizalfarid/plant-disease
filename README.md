@@ -3,6 +3,9 @@
 ## Requirements
 `pip install tensorflow==2.6.0`
 
+## Run on the microcontroller
+`xxd -i plant_disease_96_at_val_accuracy_0.80_epoch_3_tf260.tflite > plant_disease_96_at_val_accuracy_0.80_epoch_3_tf260.cc`
+
 ## Run
 ```python
 from tensorflow.keras.preprocessing.image import img_to_array,load_img
