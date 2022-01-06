@@ -4,7 +4,7 @@
 `pip install tensorflow==2.6.0`
 
 ## Run
-```
+```python
 from tensorflow.keras.preprocessing.image import img_to_array,load_img
 import tensorflow as tf
 import numpy as np
